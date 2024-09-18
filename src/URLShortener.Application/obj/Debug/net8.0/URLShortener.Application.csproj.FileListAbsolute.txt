@@ -1,0 +1,15 @@
+/Users/mberrish/Apps/URLShortener/src/URLShortener.Application/bin/Debug/net8.0/URLShortener.Application.deps.json
+/Users/mberrish/Apps/URLShortener/src/URLShortener.Application/bin/Debug/net8.0/URLShortener.Application.dll
+/Users/mberrish/Apps/URLShortener/src/URLShortener.Application/bin/Debug/net8.0/URLShortener.Application.pdb
+/Users/mberrish/Apps/URLShortener/src/URLShortener.Application/bin/Debug/net8.0/URLShortener.Domain.dll
+/Users/mberrish/Apps/URLShortener/src/URLShortener.Application/bin/Debug/net8.0/URLShortener.Domain.pdb
+/Users/mberrish/Apps/URLShortener/src/URLShortener.Application/obj/Debug/net8.0/URLShortener.Application.csproj.AssemblyReference.cache
+/Users/mberrish/Apps/URLShortener/src/URLShortener.Application/obj/Debug/net8.0/URLShortener.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mberrish/Apps/URLShortener/src/URLShortener.Application/obj/Debug/net8.0/URLShortener.Application.AssemblyInfoInputs.cache
+/Users/mberrish/Apps/URLShortener/src/URLShortener.Application/obj/Debug/net8.0/URLShortener.Application.AssemblyInfo.cs
+/Users/mberrish/Apps/URLShortener/src/URLShortener.Application/obj/Debug/net8.0/URLShortener.Application.csproj.CoreCompileInputs.cache
+/Users/mberrish/Apps/URLShortener/src/URLShortener.Application/obj/Debug/net8.0/URLShortener.Application.csproj.CopyComplete
+/Users/mberrish/Apps/URLShortener/src/URLShortener.Application/obj/Debug/net8.0/URLShortener.Application.dll
+/Users/mberrish/Apps/URLShortener/src/URLShortener.Application/obj/Debug/net8.0/refint/URLShortener.Application.dll
+/Users/mberrish/Apps/URLShortener/src/URLShortener.Application/obj/Debug/net8.0/URLShortener.Application.pdb
+/Users/mberrish/Apps/URLShortener/src/URLShortener.Application/obj/Debug/net8.0/ref/URLShortener.Application.dll

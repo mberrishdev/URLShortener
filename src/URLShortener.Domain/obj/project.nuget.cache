@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "c8+Zw091zbPBYwFg2qf/Hg1Gx4PuOGOvLewyUdzZxVDuo+AfMdyFlN4IWiKGQtD4MLxcITwRU0uT4esFFECywA==",
+  "success": true,
+  "projectFilePath": "/Users/mberrish/Apps/URLShortener/src/URLShortener.Domain/URLShortener.Domain.csproj",
+  "expectedPackageFiles": [
+    "/Users/mberrish/.nuget/packages/fluentvalidation/11.10.0/fluentvalidation.11.10.0.nupkg.sha512",
+    "/Users/mberrish/.nuget/packages/mediatr/12.4.1/mediatr.12.4.1.nupkg.sha512",
+    "/Users/mberrish/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
+    "/Users/mberrish/.nuget/packages/microsoft.entityframeworkcore.abstractions/8.0.0/microsoft.entityframeworkcore.abstractions.8.0.0.nupkg.sha512",
+    "/Users/mberrish/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
