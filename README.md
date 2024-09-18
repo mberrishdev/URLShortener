@@ -37,13 +37,15 @@ The URL Shortener API is a RESTful service that allows users to shorten long URL
 - **Request:**
   ```http
   GET /v1/abc123 HTTP/1.1
-  Host: yourdomain.com
+  Host: localhost:5000
 
 - **Response:**
   - **Status Code:** `302 Found`
   - **Location:** `https://example.com/some/long/url`
   
 - **Note:** If the short code does not exist, the API will return a `404 Not Found` status.
+
+![image](https://github.com/user-attachments/assets/2cc90d4f-f44b-4405-9e9d-9d73690e09bf)
 
 - ## Getting Started
 
