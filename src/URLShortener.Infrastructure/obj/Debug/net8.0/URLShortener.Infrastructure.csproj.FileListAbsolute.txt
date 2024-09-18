@@ -15,3 +15,4 @@
 /Users/mberrish/Apps/URLShortener/src/URLShortener.Infrastructure/obj/Debug/net8.0/refint/URLShortener.Infrastructure.dll
 /Users/mberrish/Apps/URLShortener/src/URLShortener.Infrastructure/obj/Debug/net8.0/URLShortener.Infrastructure.pdb
 /Users/mberrish/Apps/URLShortener/src/URLShortener.Infrastructure/obj/Debug/net8.0/ref/URLShortener.Infrastructure.dll
+/Users/mberrish/Apps/URLShortener/src/URLShortener.Infrastructure/obj/Debug/net8.0/URLShortener.Infrastructure.sourcelink.json

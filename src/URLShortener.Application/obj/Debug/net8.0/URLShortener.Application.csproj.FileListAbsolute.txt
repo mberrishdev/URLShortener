@@ -13,3 +13,4 @@
 /Users/mberrish/Apps/URLShortener/src/URLShortener.Application/obj/Debug/net8.0/refint/URLShortener.Application.dll
 /Users/mberrish/Apps/URLShortener/src/URLShortener.Application/obj/Debug/net8.0/URLShortener.Application.pdb
 /Users/mberrish/Apps/URLShortener/src/URLShortener.Application/obj/Debug/net8.0/ref/URLShortener.Application.dll
+/Users/mberrish/Apps/URLShortener/src/URLShortener.Application/obj/Debug/net8.0/URLShortener.Application.sourcelink.json

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "uyNnzg+Hw0w7JBi6sXJ3JyYFSL6YUtcuNpGVBi6rGrm3Umvmna2J7GRwQDoZQRBzVVS+D8d2CaYo6Ef5hKSz9w==",
+  "dgSpecHash": "b6rYL3uTFRQxYvulcJahHd/YhKIyjYi/+pQ4B9FVy1zQb5lp9362YkL7CQFp8Fb6Rjp193i3Av4wFanoqgnF9g==",
   "success": true,
   "projectFilePath": "/Users/mberrish/Apps/URLShortener/src/URLShortener.Api/URLShortener.Api.csproj",
   "expectedPackageFiles": [
@@ -37,6 +37,7 @@
     "/Users/mberrish/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "/Users/mberrish/.nuget/packages/microsoft.extensions.caching.abstractions/8.0.0/microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
     "/Users/mberrish/.nuget/packages/microsoft.extensions.caching.memory/8.0.0/microsoft.extensions.caching.memory.8.0.0.nupkg.sha512",
+    "/Users/mberrish/.nuget/packages/microsoft.extensions.caching.stackexchangeredis/8.0.0/microsoft.extensions.caching.stackexchangeredis.8.0.0.nupkg.sha512",
     "/Users/mberrish/.nuget/packages/microsoft.extensions.configuration/8.0.0/microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "/Users/mberrish/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
     "/Users/mberrish/.nuget/packages/microsoft.extensions.configuration.binder/8.0.0/microsoft.extensions.configuration.binder.8.0.0.nupkg.sha512",
@@ -72,6 +73,7 @@
     "/Users/mberrish/.nuget/packages/mono.texttemplating/2.2.1/mono.texttemplating.2.2.1.nupkg.sha512",
     "/Users/mberrish/.nuget/packages/nettopologysuite/2.5.0/nettopologysuite.2.5.0.nupkg.sha512",
     "/Users/mberrish/.nuget/packages/nettopologysuite.io.sqlserverbytes/2.1.0/nettopologysuite.io.sqlserverbytes.2.1.0.nupkg.sha512",
+    "/Users/mberrish/.nuget/packages/pipelines.sockets.unofficial/2.2.8/pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
     "/Users/mberrish/.nuget/packages/serilog/4.0.1/serilog.4.0.1.nupkg.sha512",
     "/Users/mberrish/.nuget/packages/serilog.aspnetcore/8.0.2/serilog.aspnetcore.8.0.2.nupkg.sha512",
     "/Users/mberrish/.nuget/packages/serilog.extensions.hosting/8.0.0/serilog.extensions.hosting.8.0.0.nupkg.sha512",
@@ -81,6 +83,7 @@
     "/Users/mberrish/.nuget/packages/serilog.sinks.console/5.0.0/serilog.sinks.console.5.0.0.nupkg.sha512",
     "/Users/mberrish/.nuget/packages/serilog.sinks.debug/2.0.0/serilog.sinks.debug.2.0.0.nupkg.sha512",
     "/Users/mberrish/.nuget/packages/serilog.sinks.file/5.0.0/serilog.sinks.file.5.0.0.nupkg.sha512",
+    "/Users/mberrish/.nuget/packages/stackexchange.redis/2.8.16/stackexchange.redis.2.8.16.nupkg.sha512",
     "/Users/mberrish/.nuget/packages/swashbuckle.aspnetcore/6.7.3/swashbuckle.aspnetcore.6.7.3.nupkg.sha512",
     "/Users/mberrish/.nuget/packages/swashbuckle.aspnetcore.annotations/6.7.3/swashbuckle.aspnetcore.annotations.6.7.3.nupkg.sha512",
     "/Users/mberrish/.nuget/packages/swashbuckle.aspnetcore.swagger/6.7.3/swashbuckle.aspnetcore.swagger.6.7.3.nupkg.sha512",
