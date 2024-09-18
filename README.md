@@ -71,7 +71,6 @@ The URL Shortener API is a RESTful service that allows users to shorten long URL
    dotnet run
 
 4. Open:
-   ```bash
    [https://localhost:5000/swagger](https://localhost:5000/swagger/index.html)
 
 ### Usage
