@@ -8,9 +8,6 @@ The URL Shortener API is a RESTful service that allows users to shorten long URL
 
 - **Shorten URLs:** Generate a short link from a long URL.
 - **Redirect:** Redirect users from a short link to the original long URL.
-- **Analytics:** Track the number of clicks for each short URL.
-- **Custom Short Links:** Optionally, users can create custom short links.
-- **Delete Short Links:** Remove short links from the system.
 
 ## API Endpoints
 
