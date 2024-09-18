@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using URLShortener.Domain.Validators;
+﻿using URLShortener.Domain.Validators;
 
 namespace URLShortener.Domain.Exceptions;
 

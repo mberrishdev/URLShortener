@@ -1,10 +1,9 @@
-﻿using System;
-using System.Net;
+﻿using System.Net;
 using System.Text.Json;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
 using URLShortener.Application.Exceptions;
+using URLShortener.Domain.Exceptions;
 using ApplicationException = System.ApplicationException;
+using CommandValidationException = URLShortener.Application.Exceptions.CommandValidationException;
 
 namespace URLShortener.Api.Infrastructure;
 
@@ -35,7 +34,7 @@ public class ErrorHandlerMiddleware
                 CommandValidationException => (int)HttpStatusCode.BadRequest,
                 ApplicationException => (int)HttpStatusCode.BadRequest,
                 Domain.Exceptions.CommandValidationException => (int)HttpStatusCode.BadRequest,
-                Domain.Exceptions.DomainException => (int)HttpStatusCode.BadRequest,
+                DomainException => (int)HttpStatusCode.BadRequest,
                 TaskCanceledException => (int)HttpStatusCode.GatewayTimeout,
                 not null => (int)HttpStatusCode.InternalServerError,
                 _ => (int)HttpStatusCode.InternalServerError

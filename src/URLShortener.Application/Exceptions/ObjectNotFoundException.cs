@@ -3,7 +3,7 @@
 public class ObjectNotFoundException : ApplicationException
 {
     public ObjectNotFoundException(string entityName, string propertyName, object propertyValue) : base(
-        $"{entityName} with the {propertyName}: {propertyValue.ToString()} not found.")
+        $"{entityName} with the {propertyName}: {propertyValue} not found.")
     {
     }
 

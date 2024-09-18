@@ -1,10 +1,5 @@
-using System;
-using MediatR;
-using Microsoft.AspNetCore.Builder;
-using URLShortener.Api.Infrastructure.StartupConfiguration;
 using Serilog;
-using URLShortener.Application.Features.Urls.Queries;
-using URLShortener.Domain.Entities.Urls.Commands;
+using URLShortener.Api.Infrastructure.StartupConfiguration;
 
 Log.Logger = new LoggerConfiguration()
     .Enrich.FromLogContext()

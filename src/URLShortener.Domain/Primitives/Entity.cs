@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace URLShortener.Domain.Primitives;
+﻿namespace URLShortener.Domain.Primitives;
 
 [Serializable]
 public abstract class Entity<TId>

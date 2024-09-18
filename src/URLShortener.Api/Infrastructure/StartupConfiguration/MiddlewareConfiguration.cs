@@ -1,20 +1,19 @@
 ﻿using HealthChecks.UI.Client;
-using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Microsoft.AspNetCore.HttpOverrides;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
+using Swashbuckle.AspNetCore.SwaggerUI;
 using URLShortener.Persistence.Database;
 
 namespace URLShortener.Api.Infrastructure.StartupConfiguration;
 
 /// <summary>
-/// Middleware configuration
+///     Middleware configuration
 /// </summary>
 public static class MiddlewareConfiguration
 {
     /// <summary>
-    /// Configure middleware
+    ///     Configure middleware
     /// </summary>
     /// <param name="app"></param>
     /// <returns></returns>
@@ -33,7 +32,7 @@ public static class MiddlewareConfiguration
         //if (app.Environment.IsDevelopment())
         //{
         app.UseSwagger();
-        app.UseSwaggerUI(o => { o.DocExpansion(Swashbuckle.AspNetCore.SwaggerUI.DocExpansion.None); });
+        app.UseSwaggerUI(o => { o.DocExpansion(DocExpansion.None); });
         //}
 
         app.UseHttpsRedirection();
@@ -51,7 +50,7 @@ public static class MiddlewareConfiguration
         {
             endpoints.MapControllers();
 
-            endpoints.MapHealthChecks("/health", new HealthCheckOptions()
+            endpoints.MapHealthChecks("/health", new HealthCheckOptions
             {
                 Predicate = _ => true,
                 ResponseWriter = UIResponseWriter.WriteHealthCheckUIResponse

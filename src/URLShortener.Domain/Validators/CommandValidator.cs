@@ -1,8 +1,6 @@
-﻿using System;
-using System.Linq;
-using URLShortener.Domain.Primitives;
+﻿using FluentValidation.Results;
 using URLShortener.Domain.Exceptions;
-using FluentValidation.Results;
+using URLShortener.Domain.Primitives;
 
 namespace URLShortener.Domain.Validators;
 
@@ -19,11 +17,11 @@ public class CommandValidator
 
         if (!result.IsValid)
         {
-            var errors = result.Errors.Select(x => new CommandValidationError()
+            var errors = result.Errors.Select(x => new CommandValidationError
             {
                 ErrorMessage = x.ErrorMessage,
                 ErrorCode = x.ErrorCode,
-                PropertyName = x.PropertyName,
+                PropertyName = x.PropertyName
             });
 
             throw new CommandValidationException(errors);

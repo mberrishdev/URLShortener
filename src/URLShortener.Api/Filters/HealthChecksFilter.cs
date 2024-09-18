@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using Microsoft.OpenApi.Models;
+﻿using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.SwaggerGen;
 
 namespace URLShortener.Api.Filters;
@@ -18,9 +17,9 @@ public class HealthChecksFilter : IDocumentFilter
 
         var properties = new Dictionary<string, OpenApiSchema>
         {
-            { "status", new OpenApiSchema() { Type = "string" } },
+            { "status", new OpenApiSchema { Type = "string" } },
 
-            { "errors", new OpenApiSchema() { Type = "array" } }
+            { "errors", new OpenApiSchema { Type = "array" } }
         };
 
         var response = new OpenApiResponse();
@@ -32,7 +31,7 @@ public class HealthChecksFilter : IDocumentFilter
             {
                 Type = "object",
                 AdditionalPropertiesAllowed = true,
-                Properties = properties,
+                Properties = properties
             }
         });
 

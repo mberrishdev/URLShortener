@@ -10,5 +10,4 @@ public class CreateUrlCommand : CommandBase<string>
     [JsonIgnore] public string? Code { get; set; }
     [JsonIgnore] public string? Schema { get; set; }
     [JsonIgnore] public string? Host { get; set; }
-    
 }

@@ -1,6 +1,5 @@
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using URLShortener.Application.Exceptions;
 using URLShortener.Application.Features.Urls.Queries;
 using URLShortener.Domain.Entities.Urls.Commands;
 
@@ -12,7 +11,7 @@ namespace URLShortener.Api.Controllers.UrlController;
 public class UrlController(IMediator mediator) : ApiControllerBase(mediator)
 {
     /// <summary>
-    /// Creates a new shortened URL.
+    ///     Creates a new shortened URL.
     /// </summary>
     /// <param name="command">The CreateUrlCommand containing URL data.</param>
     /// <param name="cancellationToken">Cancellation token.</param>
@@ -29,7 +28,7 @@ public class UrlController(IMediator mediator) : ApiControllerBase(mediator)
     }
 
     /// <summary>
-    /// Retrieves and redirects to the original URL.
+    ///     Retrieves and redirects to the original URL.
     /// </summary>
     /// <param name="code">The shortened code for the URL.</param>
     /// <param name="cancellationToken">Cancellation token.</param>

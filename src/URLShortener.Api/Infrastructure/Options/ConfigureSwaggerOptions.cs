@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Mvc.ApiExplorer;
-using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.SwaggerGen;
@@ -31,7 +30,7 @@ public class ConfigureSwaggerOptions : IConfigureNamedOptions<SwaggerGenOptions>
     {
         var info = new OpenApiInfo
         {
-            Title = $"URLShortener.Api",
+            Title = "URLShortener.Api",
             Description = @"URLShortener.Api",
             Version = description.ApiVersion.ToString()
         };

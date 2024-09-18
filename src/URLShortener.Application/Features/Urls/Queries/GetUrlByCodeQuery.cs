@@ -14,12 +14,9 @@ public class GetUrlByCodeQueryHandler
     public async Task<string> Handle(GetUrlByCodeQuery request, CancellationToken cancellationToken)
     {
         var cachedUrl = await distributedCache.GetStringAsync(request.Code, cancellationToken);
-        if (cachedUrl != null)
-        {
-            return cachedUrl;
-        }
+        if (cachedUrl != null) return cachedUrl;
 
-        var url = await repository.GetAsync(predicate: x => x.Code == request.Code,
+        var url = await repository.GetAsync(x => x.Code == request.Code,
                       cancellationToken: cancellationToken)
                   ?? throw new ObjectNotFoundException("URL Not found");
 

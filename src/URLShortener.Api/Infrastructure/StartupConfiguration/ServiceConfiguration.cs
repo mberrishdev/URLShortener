@@ -1,10 +1,5 @@
-﻿using System.Reflection;
-using FluentValidation.AspNetCore;
-using Microsoft.AspNetCore.Builder;
+﻿using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
 using URLShortener.Api.Filters;
 using URLShortener.Api.Infrastructure.Options;
 using URLShortener.Application;
@@ -104,16 +99,12 @@ public static class ServiceConfiguration
             options.AddDefaultPolicy(
                 policyBuilder =>
                 {
-                    string? allowedOrigins = configuration.GetValue<string>("CorsAllowedOrigins");
+                    var allowedOrigins = configuration.GetValue<string>("CorsAllowedOrigins");
                     if (string.IsNullOrEmpty(allowedOrigins) || (allowedOrigins == "*" && environment.IsDevelopment()))
-                    {
                         policyBuilder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
-                    }
                     else
-                    {
                         policyBuilder.WithOrigins(allowedOrigins.Split(";"))
                             .AllowAnyHeader().AllowAnyMethod().AllowCredentials();
-                    }
                 });
         });
 

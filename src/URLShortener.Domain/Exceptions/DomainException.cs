@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace URLShortener.Domain.Exceptions;
+﻿namespace URLShortener.Domain.Exceptions;
 
 public class DomainException : Exception
 {

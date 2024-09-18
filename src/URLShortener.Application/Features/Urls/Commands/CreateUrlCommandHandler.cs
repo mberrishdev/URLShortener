@@ -1,7 +1,6 @@
 using Common.Repository.Repository;
 using MediatR;
 using Microsoft.Extensions.Caching.Distributed;
-using URLShortener.Application.Exceptions;
 using URLShortener.Domain.Entities.Urls;
 using URLShortener.Domain.Entities.Urls.Commands;
 
@@ -44,7 +43,7 @@ public class CreateUrlCommandHandler
             var code = new string(Enumerable.Repeat(chars, 6)
                 .Select(s => s[random.Next(s.Length)]).ToArray());
 
-            if (!await repository.ExistsAsync(x => x.Code == code, cancellationToken: cancellationToken))
+            if (!await repository.ExistsAsync(x => x.Code == code, cancellationToken))
                 return code;
         }
     }

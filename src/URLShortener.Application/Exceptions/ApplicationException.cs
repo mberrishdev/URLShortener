@@ -1,11 +1,10 @@
-﻿using System;
-using System.Globalization;
+﻿using System.Globalization;
 
 namespace URLShortener.Application.Exceptions;
 
 public class ApplicationException : Exception
 {
-    public ApplicationException() : base()
+    public ApplicationException()
     {
     }
 
@@ -14,7 +13,7 @@ public class ApplicationException : Exception
     }
 
     public ApplicationException(string message, params object[] args)
-        : base(String.Format(CultureInfo.CurrentCulture, message, args))
+        : base(string.Format(CultureInfo.CurrentCulture, message, args))
     {
     }
 

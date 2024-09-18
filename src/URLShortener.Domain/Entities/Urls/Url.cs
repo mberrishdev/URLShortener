@@ -5,11 +5,6 @@ namespace URLShortener.Domain.Entities.Urls;
 
 public class Url : Entity<long>
 {
-    public string Original { get; private set; }
-    public string Shortened { get; private set; }
-    public string Code { get; private set; }
-    public DateTime CreatedAt { get; private set; }
-
     private Url()
     {
     }
@@ -24,4 +19,9 @@ public class Url : Entity<long>
 
         CreatedAt = DateTime.Now;
     }
+
+    public string Original { get; private set; }
+    public string Shortened { get; private set; }
+    public string Code { get; private set; }
+    public DateTime CreatedAt { get; private set; }
 }
