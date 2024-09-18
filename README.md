@@ -51,8 +51,8 @@ The URL Shortener API is a RESTful service that allows users to shorten long URL
 
 ### Prerequisites
 
-- .NET SDK (version)
-- A PostgreSQL or any other database (if applicable)
+- .NET SDK (8.0)
+- A SQL Server
 
 ### Installation
 
